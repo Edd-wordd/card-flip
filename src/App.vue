@@ -13,6 +13,8 @@ export default {
         .then(data => {
           this.images = data.message
         })
+        .catch(error => console.log(error))
+
   },
   data() {
     return {

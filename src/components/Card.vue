@@ -81,7 +81,23 @@ export default {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.5rem;
+}
+
+.card-header{
+  font-weight: bold;
+  text-align: center;
+  margin-top: -7rem ;
+}
+
+.card-body{
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.card-footer{
+  text-align: center;
+  font-size: .75rem;
+  margin-bottom: -7rem;
 }
 
 .card:hover{
